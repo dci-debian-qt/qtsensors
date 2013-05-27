@@ -1,0 +1,92 @@
+Source: qtsensors-opensource-src
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>,
+           Modestas Vainius <modax@debian.org>,
+           Sune Vuorela <debian@pusling.com>,
+           Pino Toscano <pino@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Timo Jyrinki <timo@debian.org>
+Build-Depends: debhelper (>= 9.0.0),
+               qtbase5-private-dev (>= 5.0.2),
+               qtdeclarative5-private-dev (>= 5.0.2),
+               qt5-default,
+               pkg-kde-tools,
+Standards-Version: 3.9.3
+Homepage: http://qt-project.org/
+
+Package: libqt5sensors5
+Architecture: amd64 i386 armhf
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt Sensors module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt Sensors module.
+
+Package: qtdeclarative5-qtsensors-plugin
+Architecture: amd64 i386 armhf
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 Sensors module QML plugin
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the Qt Sensors QML plugin for Qt Declarative.
+
+Package: qtsensors5-dev
+Section: libdevel
+Architecture: amd64 i386 armhf
+Depends: libqt5sensors5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
+Description: Qt 5 Sensors development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the header development files used for building Qt 5
+ applications using Qt Sensors library.
+
+Package: qtsensors5-private-dev
+Architecture: amd64 i386 armhf
+Section: libdevel
+Depends: qtsensors5-dev (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Qt 5 Sensors private development files
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the private header development files for building some
+ Qt 5 applications using sensors private headers.
+ .
+ Use at your own risk.
+
+Package: qtsensors5-examples
+Architecture: amd64 i386 armhf
+Multi-Arch: same
+Section: x11
+Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Qt 5 sensors examples
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains Qt 5 Sensors examples.
+
+Package: qtsensors5-dbg
+Priority: extra
+Architecture: amd64 i386 armhf
+Section: debug
+Depends: libqt5sensors5 (= ${binary:Version}),
+         qtsensors5-examples (= ${binary:Version}),
+         ${misc:Depends}
+Description: Qt sensors library debugging symbols
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the debugging symbols for the Qt 5 Sensors
+ libraries.
+
