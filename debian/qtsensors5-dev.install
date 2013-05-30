@@ -87,7 +87,7 @@ usr/include/qt5/QtSensors/qtapsensor.h
 usr/include/qt5/QtSensors/qtiltsensor.h
 usr/include/qt5/QtSensors/qtsensorsversion.h
 usr/lib/*/cmake/*
-usr/lib/*/libqt5sensors.prl
-usr/lib/*/libqt5sensors.so
+usr/lib/*/libQt5Sensors.prl
+usr/lib/*/libQt5Sensors.so
 usr/lib/*/pkgconfig/*
 usr/share/qt5/mkspecs/modules/*
