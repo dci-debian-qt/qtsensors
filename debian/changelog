@@ -3,29 +3,3 @@ qtsensors-opensource-src (5.0~git20130507-1) UNRELEASED; urgency=low
   * Initial release (Closes: #697509) 
 
  -- Timo Jyrinki <timo@debian.org>  Mon, 27 May 2013 14:07:40 +0300
-
-qtsensors-opensource-src (5.0~git20130507-0ubuntu2) saucy; urgency=low
-
-  * Add version dependency to Qt 5.0.2
-
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 24 May 2013 17:31:18 +0300
-
-qtsensors-opensource-src (5.0~git20130507-0ubuntu1) saucy; urgency=low
-
-  [ Timo Jyrinki ]
-  * Fix pkgconfig Libs.private path (LP: #1125156)
-  * New upstream snapshot.
-
-  [ Ken VanDine ]
-  * debian/control
-    - Only build for arches supported by qtdeclarative
-
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 08 May 2013 11:27:52 +0300
-
-qtsensors-opensource-src (5.0~git20130115-0ubuntu1) raring; urgency=low
-
-  * Initial release
-  * Cherry-pick from upstream:
-    - add_license_files.patch
-
- -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 18 Jan 2013 13:56:03 +0200
