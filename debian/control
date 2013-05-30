@@ -17,7 +17,7 @@ Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
 
 Package: libqt5sensors5
-Architecture: amd64 i386 armhf
+Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -28,7 +28,7 @@ Description: Qt Sensors module
  This package contains Qt Sensors module.
 
 Package: qtdeclarative5-qtsensors-plugin
-Architecture: amd64 i386 armhf
+Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
@@ -40,7 +40,7 @@ Description: Qt 5 Sensors module QML plugin
 
 Package: qtsensors5-dev
 Section: libdevel
-Architecture: amd64 i386 armhf
+Architecture: any
 Depends: libqt5sensors5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
 Description: Qt 5 Sensors development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -50,7 +50,7 @@ Description: Qt 5 Sensors development files
  applications using Qt Sensors library.
 
 Package: qtsensors5-private-dev
-Architecture: amd64 i386 armhf
+Architecture: any
 Section: libdevel
 Depends: qtsensors5-dev (= ${binary:Version}),
          ${misc:Depends},
@@ -65,7 +65,7 @@ Description: Qt 5 Sensors private development files
  Use at your own risk.
 
 Package: qtsensors5-examples
-Architecture: amd64 i386 armhf
+Architecture: any
 Multi-Arch: same
 Section: x11
 Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
@@ -78,7 +78,7 @@ Description: Qt 5 sensors examples
 
 Package: qtsensors5-dbg
 Priority: extra
-Architecture: amd64 i386 armhf
+Architecture: any
 Section: debug
 Depends: libqt5sensors5 (= ${binary:Version}),
          qtsensors5-examples (= ${binary:Version}),
