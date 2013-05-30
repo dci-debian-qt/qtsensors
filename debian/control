@@ -82,8 +82,8 @@ Priority: extra
 Architecture: any
 Section: debug
 Depends: libqt5sensors5 (= ${binary:Version}),
-         qtsensors5-examples (= ${binary:Version}),
          ${misc:Depends}
+Suggests: qtsensors5-examples (= ${binary:Version})
 Description: Qt sensors library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
