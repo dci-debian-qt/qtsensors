@@ -1,5 +1,5 @@
-qtsensors-opensource-src (5.0~git20130507-1) UNRELEASED; urgency=low
+qtsensors-opensource-src (5.1.1-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #697509) 
 
- -- Timo Jyrinki <timo@debian.org>  Mon, 27 May 2013 14:07:40 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Aug 2013 08:26:24 +0000
