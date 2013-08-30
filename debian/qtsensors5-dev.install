@@ -59,6 +59,7 @@ usr/include/qt5/QtSensors/QTiltFilter
 usr/include/qt5/QtSensors/QTiltReading
 usr/include/qt5/QtSensors/QTiltSensor
 usr/include/qt5/QtSensors/QtSensors
+usr/include/qt5/QtSensors/QtSensorsDepends
 usr/include/qt5/QtSensors/QtSensorsVersion
 usr/include/qt5/QtSensors/qaccelerometer.h
 usr/include/qt5/QtSensors/qaltimeter.h
