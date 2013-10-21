@@ -157,7 +157,7 @@ Files: *.qdoc
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
 License: GFDL-1.3
 
-Files: src/sensors/doc/src/genericbackend.qdoc src/sensors/doc/src/compatmap.qdoc 
+Files: src/sensors/doc/src/genericbackend.qdoc src/sensors/doc/src/compatmap.qdoc
 Copyright: 2012 Research In Motion
 License: GFDL-1.3
 
@@ -172,4 +172,3 @@ License: GFDL-1.3
  .
  On Debian systems, the complete text of the GFDL-1.3 license can be found in
  `/usr/share/common-licenses/GFDL-1.3`,
-

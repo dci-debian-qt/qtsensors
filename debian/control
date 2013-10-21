@@ -9,10 +9,10 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>
 Build-Depends: debhelper (>= 9.0.0),
-               qtbase5-private-dev (>= 5.1.1~),
-               qtdeclarative5-private-dev (>= 5.1.1~),
-               qt5-default,
                pkg-kde-tools,
+               qt5-default,
+               qtbase5-private-dev (>= 5.1.1~),
+               qtdeclarative5-private-dev (>= 5.1.1~)
 Standards-Version: 3.9.3
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtsensors.git
@@ -43,7 +43,7 @@ Description: Qt 5 Sensors module QML plugin
 Package: qtsensors5-dev
 Section: libdevel
 Architecture: any
-Depends: libqt5sensors5 (= ${binary:Version}), ${misc:Depends}, qtbase5-dev
+Depends: libqt5sensors5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
 Description: Qt 5 Sensors development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -54,8 +54,7 @@ Description: Qt 5 Sensors development files
 Package: qtsensors5-private-dev
 Architecture: any
 Section: libdevel
-Depends: qtsensors5-dev (= ${binary:Version}),
-         ${misc:Depends},
+Depends: qtsensors5-dev (= ${binary:Version}), ${misc:Depends}
 Description: Qt 5 Sensors private development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -81,8 +80,7 @@ Package: qtsensors5-dbg
 Priority: extra
 Architecture: any
 Section: debug
-Depends: libqt5sensors5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libqt5sensors5 (= ${binary:Version}), ${misc:Depends}
 Suggests: qtsensors5-examples (= ${binary:Version})
 Description: Qt sensors library debugging symbols
  Qt is a cross-platform C++ application framework. Qt's primary feature
@@ -90,4 +88,3 @@ Description: Qt sensors library debugging symbols
  .
  This package contains the debugging symbols for the Qt 5 Sensors
  libraries.
-
