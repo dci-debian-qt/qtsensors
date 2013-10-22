@@ -39,7 +39,7 @@ Description: Qt 5 Sensors module QML plugin
  .
  This package contains the Qt Sensors QML plugin for Qt Declarative.
 
-Package: qtsensors5-dev
+Package: libqtsensors5-dev
 Section: libdevel
 Architecture: any
 Depends: libqt5sensors5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
