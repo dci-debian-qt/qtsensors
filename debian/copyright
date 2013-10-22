@@ -49,11 +49,6 @@ Files: doc/config/scripts/superfish.js
 Copyright: 2008 Joel Birch
 License: MIT
 
-Files: doc/config/scripts/jquery.js
-Copyright: 2010 John Resig
-           2010 The Dojo Foundation
-License: MIT
-
 Files: *.qdoc
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
 License: GFDL-1.3
