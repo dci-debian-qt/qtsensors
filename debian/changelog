@@ -1,5 +1,5 @@
-qtsensors-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
+qtsensors-opensource-src (5.1.1+dfsg-1) unstable; urgency=low
 
-  * Initial release (Closes: #697509) 
+  * Initial release (Closes: #697509).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 29 Aug 2013 08:26:24 +0000
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 21 Oct 2013 22:47:26 -0300
