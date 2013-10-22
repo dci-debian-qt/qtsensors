@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.1.1-1) UNRELEASED; urgency=low
+qtsensors-opensource-src (5.1.1+dfsg-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #697509) 
 
