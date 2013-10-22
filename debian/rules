@@ -24,6 +24,9 @@ override_dh_auto_install:
 	# Remove libtool-like files
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
+	# Remove private headers
+	rm -fv debian/tmp/usr/include/qt5/QtSensors/*/QtSensors/private/*
+
 override_dh_install:
 	dh_install --fail-missing
 

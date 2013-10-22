@@ -50,19 +50,6 @@ Description: Qt 5 Sensors development files
  This package contains the header development files used for building Qt 5
  applications using Qt Sensors library.
 
-Package: qtsensors5-private-dev
-Architecture: any
-Section: libdevel
-Depends: qtsensors5-dev (= ${binary:Version}), ${misc:Depends}
-Description: Qt 5 Sensors private development files
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the private header development files for building some
- Qt 5 applications using sensors private headers.
- .
- Use at your own risk.
-
 Package: qtsensors5-examples
 Architecture: any
 Multi-Arch: same
