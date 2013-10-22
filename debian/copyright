@@ -138,7 +138,7 @@ License: LGPL-2.1
  will be met: http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
  .
  On Debian systems, the complete text of the LGPL-2.1 license can be found in
- `/usr/share/common-licenses/LGPL-2.1`,
+ `/usr/share/common-licenses/LGPL-2.1`.
 
 License: BSD-3-clause
  You may use this file under the terms of the BSD license as follows:
