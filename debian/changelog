@@ -6,6 +6,7 @@ qtsensors-opensource-src (5.2.0~beta1+dfsg-1) UNRELEASED; urgency=low
     grue example to fix FTBFS.
   * Update libqt5sensors5.symbols.
   * Bump qtbase and qtdeclarative build-dependencies to 5.2.0.
+  * Make Vcs-Browser field canonical by dropping useless attribute.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
 
