@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.1 amd64
+# SymbolsHelper-Confirmed: 5.2.0~beta1 i386 amd64
 libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN10QAltimeter11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN10QAltimeter11qt_metacastEPKc@Base 5.1.1
@@ -241,6 +241,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QPressureReading11qt_metacastEPKc@Base 5.1.1
  _ZN16QPressureReading11setPressureEd@Base 5.1.1
  _ZN16QPressureReading14copyValuesFromEP14QSensorReading@Base 5.1.1
+ _ZN16QPressureReading14setTemperatureEd@Base 5.2.0~beta1
  _ZN16QPressureReading16staticMetaObjectE@Base 5.1.1
  _ZN16QPressureReadingC1EP7QObject@Base 5.1.1
  _ZN16QPressureReadingC2EP7QObject@Base 5.1.1
@@ -569,6 +570,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZNK15QRotationSensor4hasZEv@Base 5.1.1
  _ZNK15QRotationSensor7readingEv@Base 5.1.1
  _ZNK16QPressureReading10metaObjectEv@Base 5.1.1
+ _ZNK16QPressureReading11temperatureEv@Base 5.2.0~beta1
  _ZNK16QPressureReading8pressureEv@Base 5.1.1
  _ZNK16QProximitySensor10metaObjectEv@Base 5.1.1
  _ZNK16QProximitySensor7readingEv@Base 5.1.1
