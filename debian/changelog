@@ -1,9 +1,11 @@
 qtsensors-opensource-src (5.2.0~beta1+dfsg-1) UNRELEASED; urgency=low
 
+  [ Dmitry Shachnev ]
   * New upstream beta release.
   * debian/patches/fix_grue_qmldir_path.diff: correctly set qmldir.path for
     grue example to fix FTBFS.
   * Update libqt5sensors5.symbols.
+  * Bump qtbase and qtdeclarative build-dependencies to 5.2.0.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
 
