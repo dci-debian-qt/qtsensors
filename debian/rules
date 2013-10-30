@@ -12,7 +12,10 @@ export QT_SELECT := qt5
 	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtsensors5-dbg
 
 override_dh_auto_configure:
-	qmake
+	qmake QT_BUILD_PARTS+=tests
+
+override_dh_auto_test:
+	xvfb-run -a make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
 
 override_dh_auto_install:
 	dh_auto_install
