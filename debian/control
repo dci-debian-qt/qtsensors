@@ -54,8 +54,8 @@ Package: libqt5sensors5-dev
 Section: libdevel
 Architecture: any
 Depends: libqt5sensors5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
-Breaks: libqtsensors5 (<< 5.1.1+dfsg-2~)
-Replaces: libqtsensors5 (<< 5.1.1+dfsg-2~)
+Breaks: libqtsensors5-dev (<< 5.1.1+dfsg-2~)
+Replaces: libqtsensors5-dev (<< 5.1.1+dfsg-2~)
 Description: Qt 5 Sensors development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
