@@ -1,5 +1,8 @@
 qtsensors-opensource-src (5.1.1+dfsg-2) UNRELEASED; urgency=low
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Rename libqtsensors5-dev to libqt5sensors5-dev:
+    - Provide libqtsensors5-dev as a transitional dummy package.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Nov 2013 11:14:27 -0300
 
