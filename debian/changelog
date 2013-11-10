@@ -1,3 +1,8 @@
+qtsensors-opensource-src (5.1.1+dfsg-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Nov 2013 13:21:06 +0400
+
 qtsensors-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 
   * Rename libqtsensors5-dev to libqt5sensors5-dev:
