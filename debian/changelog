@@ -1,10 +1,9 @@
-qtsensors-opensource-src (5.1.1+dfsg-3) UNRELEASED; urgency=low
+qtsensors-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
 
-  [ Dmitry Shachnev ]
-  * Substitute qreal in symbols file to fix FTBFS on ARM architectures.
+  * Substitute qreal in symbols file to fix FTBFS on armhf.
   * Add myself to uploaders
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 10 Nov 2013 13:21:06 +0400
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Tue, 12 Nov 2013 12:29:47 -0500
 
 qtsensors-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 
