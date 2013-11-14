@@ -12,6 +12,20 @@ qtsensors-opensource-src (5.2.0~beta1+dfsg-1) UNRELEASED; urgency=low
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
 
+qtsensors-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
+
+  * Substitute qreal in symbols file to fix FTBFS on armhf.
+  * Add myself to uploaders
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Tue, 12 Nov 2013 12:29:47 -0500
+
+qtsensors-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
+
+  * Rename libqtsensors5-dev to libqt5sensors5-dev:
+    - Provide libqtsensors5-dev as a transitional dummy package.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 06 Nov 2013 12:08:57 -0300
+
 qtsensors-opensource-src (5.1.1+dfsg-1) unstable; urgency=low
 
   * Initial release (Closes: #697509).

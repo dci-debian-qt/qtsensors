@@ -64,9 +64,9 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN12QLightFilterD2Ev@Base 5.1.1
  _ZN12QLightSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN12QLightSensor11qt_metacastEPKc@Base 5.1.1
- _ZN12QLightSensor14setFieldOfViewEd@Base 5.1.1
+ (subst)_ZN12QLightSensor14setFieldOfViewE{qreal}@Base 5.1.1
  _ZN12QLightSensor16staticMetaObjectE@Base 5.1.1
- _ZN12QLightSensor18fieldOfViewChangedEd@Base 5.1.1
+ (subst)_ZN12QLightSensor18fieldOfViewChangedE{qreal}@Base 5.1.1
  _ZN12QLightSensor4typeE@Base 5.1.1
  _ZN12QLightSensorC1EP7QObject@Base 5.1.1
  _ZN12QLightSensorC2EP7QObject@Base 5.1.1
@@ -75,8 +75,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN12QLightSensorD2Ev@Base 5.1.1
  _ZN12QTiltReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN12QTiltReading11qt_metacastEPKc@Base 5.1.1
- _ZN12QTiltReading12setXRotationEd@Base 5.1.1
- _ZN12QTiltReading12setYRotationEd@Base 5.1.1
+ (subst)_ZN12QTiltReading12setXRotationE{qreal}@Base 5.1.1
+ (subst)_ZN12QTiltReading12setYRotationE{qreal}@Base 5.1.1
  _ZN12QTiltReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN12QTiltReading16staticMetaObjectE@Base 5.1.1
  _ZN12QTiltReadingC1EP7QObject@Base 5.1.1
@@ -88,7 +88,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN13QLightReading11qt_metacastEPKc@Base 5.1.1
  _ZN13QLightReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN13QLightReading16staticMetaObjectE@Base 5.1.1
- _ZN13QLightReading6setLuxEd@Base 5.1.1
+ (subst)_ZN13QLightReading6setLuxE{qreal}@Base 5.1.1
  _ZN13QLightReadingC1EP7QObject@Base 5.1.1
  _ZN13QLightReadingC2EP7QObject@Base 5.1.1
  _ZN13QLightReadingD0Ev@Base 5.1.1
@@ -140,14 +140,14 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN14QHolsterSensorD1Ev@Base 5.1.1
  _ZN14QHolsterSensorD2Ev@Base 5.1.1
  _ZN14QSensorBackend10sensorBusyEv@Base 5.1.1
- _ZN14QSensorBackend11addDataRateEdd@Base 5.1.1
+ (subst)_ZN14QSensorBackend11addDataRateE{qreal}{qreal}@Base 5.1.1
  _ZN14QSensorBackend11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN14QSensorBackend11qt_metacastEPKc@Base 5.1.1
  _ZN14QSensorBackend11sensorErrorEi@Base 5.1.1
  _ZN14QSensorBackend11setReadingsEP14QSensorReadingS1_S1_@Base 5.1.1
  _ZN14QSensorBackend12setDataRatesEPK7QSensor@Base 5.1.1
  _ZN14QSensorBackend13sensorStoppedEv@Base 5.1.1
- _ZN14QSensorBackend14addOutputRangeEddd@Base 5.1.1
+ (subst)_ZN14QSensorBackend14addOutputRangeE{qreal}{qreal}{qreal}@Base 5.1.1
  _ZN14QSensorBackend14setDescriptionERK7QString@Base 5.1.1
  _ZN14QSensorBackend16staticMetaObjectE@Base 5.1.1
  _ZN14QSensorBackend19newReadingAvailableEv@Base 5.1.1
@@ -180,12 +180,12 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN14QSensorReadingD0Ev@Base 5.1.1
  _ZN14QSensorReadingD1Ev@Base 5.1.1
  _ZN14QSensorReadingD2Ev@Base 5.1.1
- _ZN15QCompassReading10setAzimuthEd@Base 5.1.1
+ (subst)_ZN15QCompassReading10setAzimuthE{qreal}@Base 5.1.1
  _ZN15QCompassReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN15QCompassReading11qt_metacastEPKc@Base 5.1.1
  _ZN15QCompassReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN15QCompassReading16staticMetaObjectE@Base 5.1.1
- _ZN15QCompassReading19setCalibrationLevelEd@Base 5.1.1
+ (subst)_ZN15QCompassReading19setCalibrationLevelE{qreal}@Base 5.1.1
  _ZN15QCompassReadingC1EP7QObject@Base 5.1.1
  _ZN15QCompassReadingC2EP7QObject@Base 5.1.1
  _ZN15QCompassReadingD0Ev@Base 5.1.1
@@ -239,7 +239,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QGyroscopeFilterD2Ev@Base 5.1.1
  _ZN16QPressureReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN16QPressureReading11qt_metacastEPKc@Base 5.1.1
- _ZN16QPressureReading11setPressureEd@Base 5.1.1
+ (subst)_ZN16QPressureReading11setPressureE{qreal}@Base 5.1.1
  _ZN16QPressureReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN16QPressureReading14setTemperatureEd@Base 5.2.0~beta1
  _ZN16QPressureReading16staticMetaObjectE@Base 5.1.1
@@ -263,7 +263,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QProximitySensorD2Ev@Base 5.1.1
  _ZN16QRotationReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN16QRotationReading11qt_metacastEPKc@Base 5.1.1
- _ZN16QRotationReading12setFromEulerEddd@Base 5.1.1
+ (subst)_ZN16QRotationReading12setFromEulerE{qreal}{qreal}{qreal}@Base 5.1.1
  _ZN16QRotationReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN16QRotationReading16staticMetaObjectE@Base 5.1.1
  _ZN16QRotationReadingC1EP7QObject@Base 5.1.1
@@ -273,7 +273,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QRotationReadingD2Ev@Base 5.1.1
  _ZN17QAltimeterReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN17QAltimeterReading11qt_metacastEPKc@Base 5.1.1
- _ZN17QAltimeterReading11setAltitudeEd@Base 5.1.1
+ (subst)_ZN17QAltimeterReading11setAltitudeE{qreal}@Base 5.1.1
  _ZN17QAltimeterReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN17QAltimeterReading16staticMetaObjectE@Base 5.1.1
  _ZN17QAltimeterReadingC1EP7QObject@Base 5.1.1
@@ -285,9 +285,9 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN17QGyroscopeReading11qt_metacastEPKc@Base 5.1.1
  _ZN17QGyroscopeReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN17QGyroscopeReading16staticMetaObjectE@Base 5.1.1
- _ZN17QGyroscopeReading4setXEd@Base 5.1.1
- _ZN17QGyroscopeReading4setYEd@Base 5.1.1
- _ZN17QGyroscopeReading4setZEd@Base 5.1.1
+ (subst)_ZN17QGyroscopeReading4setXE{qreal}@Base 5.1.1
+ (subst)_ZN17QGyroscopeReading4setYE{qreal}@Base 5.1.1
+ (subst)_ZN17QGyroscopeReading4setZE{qreal}@Base 5.1.1
  _ZN17QGyroscopeReadingC1EP7QObject@Base 5.1.1
  _ZN17QGyroscopeReadingC2EP7QObject@Base 5.1.1
  _ZN17QGyroscopeReadingD0Ev@Base 5.1.1
@@ -345,7 +345,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN19QIRProximityReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN19QIRProximityReading11qt_metacastEPKc@Base 5.1.1
  _ZN19QIRProximityReading14copyValuesFromEP14QSensorReading@Base 5.1.1
- _ZN19QIRProximityReading14setReflectanceEd@Base 5.1.1
+ (subst)_ZN19QIRProximityReading14setReflectanceE{qreal}@Base 5.1.1
  _ZN19QIRProximityReading16staticMetaObjectE@Base 5.1.1
  _ZN19QIRProximityReadingC1EP7QObject@Base 5.1.1
  _ZN19QIRProximityReadingC2EP7QObject@Base 5.1.1
@@ -384,10 +384,10 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN20QMagnetometerReading11qt_metacastEPKc@Base 5.1.1
  _ZN20QMagnetometerReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN20QMagnetometerReading16staticMetaObjectE@Base 5.1.1
- _ZN20QMagnetometerReading19setCalibrationLevelEd@Base 5.1.1
- _ZN20QMagnetometerReading4setXEd@Base 5.1.1
- _ZN20QMagnetometerReading4setYEd@Base 5.1.1
- _ZN20QMagnetometerReading4setZEd@Base 5.1.1
+ (subst)_ZN20QMagnetometerReading19setCalibrationLevelE{qreal}@Base 5.1.1
+ (subst)_ZN20QMagnetometerReading4setXE{qreal}@Base 5.1.1
+ (subst)_ZN20QMagnetometerReading4setYE{qreal}@Base 5.1.1
+ (subst)_ZN20QMagnetometerReading4setZE{qreal}@Base 5.1.1
  _ZN20QMagnetometerReadingC1EP7QObject@Base 5.1.1
  _ZN20QMagnetometerReadingC2EP7QObject@Base 5.1.1
  _ZN20QMagnetometerReadingD0Ev@Base 5.1.1
@@ -397,9 +397,9 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN21QAccelerometerReading11qt_metacastEPKc@Base 5.1.1
  _ZN21QAccelerometerReading14copyValuesFromEP14QSensorReading@Base 5.1.1
  _ZN21QAccelerometerReading16staticMetaObjectE@Base 5.1.1
- _ZN21QAccelerometerReading4setXEd@Base 5.1.1
- _ZN21QAccelerometerReading4setYEd@Base 5.1.1
- _ZN21QAccelerometerReading4setZEd@Base 5.1.1
+ (subst)_ZN21QAccelerometerReading4setXE{qreal}@Base 5.1.1
+ (subst)_ZN21QAccelerometerReading4setYE{qreal}@Base 5.1.1
+ (subst)_ZN21QAccelerometerReading4setZE{qreal}@Base 5.1.1
  _ZN21QAccelerometerReadingC1EP7QObject@Base 5.1.1
  _ZN21QAccelerometerReadingC2EP7QObject@Base 5.1.1
  _ZN21QAccelerometerReadingD0Ev@Base 5.1.1
@@ -453,7 +453,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN26QAmbientTemperatureReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN26QAmbientTemperatureReading11qt_metacastEPKc@Base 5.1.1
  _ZN26QAmbientTemperatureReading14copyValuesFromEP14QSensorReading@Base 5.1.1
- _ZN26QAmbientTemperatureReading14setTemperatureEd@Base 5.1.1
+ (subst)_ZN26QAmbientTemperatureReading14setTemperatureE{qreal}@Base 5.1.1
  _ZN26QAmbientTemperatureReading16staticMetaObjectE@Base 5.1.1
  _ZN26QAmbientTemperatureReadingC1EP7QObject@Base 5.1.1
  _ZN26QAmbientTemperatureReadingC2EP7QObject@Base 5.1.1
