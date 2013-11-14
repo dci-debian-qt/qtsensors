@@ -9,6 +9,7 @@ qtsensors-opensource-src (5.2.0~beta1+dfsg-1) UNRELEASED; urgency=low
   * Make Vcs-Browser field canonical by dropping useless attribute.
   * Run tests during build.
   * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
+  * Use my correct email for Uploaders field.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
 
