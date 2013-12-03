@@ -11,6 +11,10 @@ qtsensors-opensource-src (5.2.0~beta1+dfsg-1) UNRELEASED; urgency=low
   * Explicitly define DEB_HOST_MULTIARCH in debian/rules.
   * Use my correct email for Uploaders field.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Remove tyransitional dummy package libqtsensors5-dev, it is no longer
+    needed.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
 
 qtsensors-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
