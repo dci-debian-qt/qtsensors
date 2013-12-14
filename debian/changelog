@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
+qtsensors-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -14,7 +14,7 @@ qtsensors-opensource-src (5.2.0+dfsg-1) UNRELEASED; urgency=low
     needed.
   * Regenerate symbols that used the qreal subst, they are no longer necessary.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Oct 2013 21:31:54 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 14 Dec 2013 00:06:08 -0300
 
 qtsensors-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
 
