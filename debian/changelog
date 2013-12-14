@@ -10,7 +10,7 @@ qtsensors-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
   * Use my correct email for Uploaders field.
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
-  * Remove tyransitional dummy package libqtsensors5-dev, it is no longer
+  * Remove transitional dummy package libqtsensors5-dev, it is no longer
     needed.
   * Regenerate symbols that used the qreal subst, they are no longer necessary.
 
