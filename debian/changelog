@@ -1,5 +1,7 @@
 qtsensors-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=low
 
+  [ Dmitry Shachnev ]
+  * Fix typo in the previous changelog entry.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 21 Dec 2013 11:11:05 +0100
 
