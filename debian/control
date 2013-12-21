@@ -59,7 +59,7 @@ Package: qtsensors5-examples
 Architecture: any
 Multi-Arch: same
 Section: x11
-Pre-Depends: dpkg (>= 1.15.6~), ${misc:Pre-Depends}
+Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt 5 sensors examples
  Qt is a cross-platform C++ application framework. Qt's primary feature
