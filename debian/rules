@@ -4,6 +4,7 @@
 #export DH_VERBOSE=1
 
 DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+DEB_HOST_ARCH_OS ?= $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)
 
 export CFLAGS := $(shell dpkg-buildflags --get CFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
 export CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS) $(shell dpkg-buildflags --get CPPFLAGS)
@@ -16,8 +17,11 @@ export QT_SELECT := qt5
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
+# See https://bugreports.qt-project.org/browse/QTBUG-34500
 override_dh_auto_test:
+ifneq ($(DEB_HOST_ARCH_OS),hurd)
 	xvfb-run -a make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+endif
 
 override_dh_auto_install:
 	dh_auto_install
