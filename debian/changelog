@@ -3,7 +3,6 @@ qtsensors-opensource-src (5.2.0+dfsg-2) UNRELEASED; urgency=low
   [ Dmitry Shachnev ]
   * Fix typo in the previous changelog entry.
   * Install libqtsensors_linuxsys.so only on Linux.
-  * Disable the failing testsuite on hurd (reported as QTBUG-34500).
 
   [ Pino Toscano ]
   * Do not install the private qmake stuff.

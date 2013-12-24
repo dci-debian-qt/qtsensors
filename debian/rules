@@ -22,11 +22,8 @@ pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debi
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
 
-# See https://bugreports.qt-project.org/browse/QTBUG-34500
 override_dh_auto_test:
-ifneq ($(DEB_HOST_ARCH_OS),hurd)
 	xvfb-run -a make check QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
-endif
 
 override_dh_auto_install:
 	dh_auto_install
