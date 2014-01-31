@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9.0.0),
                qtdeclarative5-private-dev (>= 5.2.0~),
                xauth,
                xvfb
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://qt-project.org/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/qt/qtsensors.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/qt/qtsensors.git

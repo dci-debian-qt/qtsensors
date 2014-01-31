@@ -12,6 +12,7 @@ qtsensors-opensource-src (5.2.0+dfsg-2) experimental; urgency=low
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Move mkspec files to their new location.
     - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
+  * Update Standards-Version to 3.9.5, no changes required.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Dec 2013 15:18:42 -0300
 
