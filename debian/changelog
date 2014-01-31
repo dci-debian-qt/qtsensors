@@ -9,6 +9,10 @@ qtsensors-opensource-src (5.2.0+dfsg-2) experimental; urgency=low
   * Remove the Pre-Depends on dpkg >= 1.15.6~, since that version is available
     in Squeeze already.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Move mkspec files to their new location.
+    - B-D on qtbase5-private-dev 5.2.0+dfsg-7 which changed the location.
+
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 26 Dec 2013 15:18:42 -0300
 
 qtsensors-opensource-src (5.2.0+dfsg-1) experimental; urgency=low
