@@ -1,5 +1,8 @@
 qtsensors-opensource-src (5.2.1+dfsg-1) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * New upstream release.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 16 Feb 2014 18:30:20 -0300
 
 qtsensors-opensource-src (5.2.0+dfsg-3) unstable; urgency=medium
