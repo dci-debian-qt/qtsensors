@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.2.1+dfsg-2) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * Build documentation packages (closes: #737712).
@@ -8,7 +8,7 @@ qtsensors-opensource-src (5.2.1+dfsg-2) UNRELEASED; urgency=medium
   * Add Build-Depends-Indep with libqt5sql5-sqlite and qttools5-dev-tools to be
     able to build the doc.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Feb 2014 20:38:45 +0400
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 25 Feb 2014 15:03:18 -0300
 
 qtsensors-opensource-src (5.2.1+dfsg-1) experimental; urgency=medium
 
