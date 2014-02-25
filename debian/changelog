@@ -2,7 +2,7 @@ qtsensors-opensource-src (5.2.1+dfsg-2) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Use dh_auto_test for running tests.
-  * Build documentation packages.
+  * Build documentation packages (closes: #737712).
   * Properly clean the build.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Feb 2014 20:38:45 +0400
