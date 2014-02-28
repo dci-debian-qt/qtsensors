@@ -3,6 +3,9 @@ qtsensors-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * Use dh_auto_test to run the tests.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Only run tests if nocheck has not been passed as argument.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Feb 2014 15:12:39 +0400
 
 qtsensors-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
