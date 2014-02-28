@@ -32,9 +32,7 @@ override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
 override_dh_auto_test:
-ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
 	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
-endif
 
 override_dh_auto_install-arch:
 	dh_auto_install
