@@ -1,11 +1,14 @@
-qtsensors-opensource-src (5.2.1+dfsg-3) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
   * Use dh_auto_test to run the tests.
   * Remove dh_builddeb override, xz is now the default compression method.
   * Remove dh_auto_build-arch override, it is not needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 27 Feb 2014 15:12:39 +0400
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 23:22:30 -0300
 
 qtsensors-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
 
