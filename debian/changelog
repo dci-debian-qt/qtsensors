@@ -1,3 +1,7 @@
+qtsensors-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 21:05:49 -0300
+
 qtsensors-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium
 
   [ Dmitry Shachnev ]
