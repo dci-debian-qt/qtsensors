@@ -1,5 +1,9 @@
 qtsensors-opensource-src (5.2.1+dfsg-4) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Rename QML module qtdeclarative5-qtsensors-plugin to qml-module-qtsensors,
+    providing proper Break+Replaces and file renamings.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 02 Apr 2014 21:05:49 -0300
 
 qtsensors-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium

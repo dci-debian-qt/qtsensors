@@ -34,15 +34,27 @@ Description: Qt Sensors module
  This package contains Qt Sensors module.
 
 Package: qtdeclarative5-qtsensors-plugin
+Architecture: all
+Section: oldlibs
+Depends: ${misc:Depends}, qml-module-qtsensors
+Description: transitional dummy package for Qt 5 Sensors QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
+
+Package: qml-module-qtsensors
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Qt 5 Sensors module QML plugin
+Breaks: qtdeclarative5-qtsensors-plugin (<< 5.2.1+dfsg-4~)
+Replaces: qtdeclarative5-qtsensors-plugin (<< 5.2.1+dfsg-4~)
+Description: Qt 5 Sensors QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
  .
- This package contains the Qt Sensors QML plugin for Qt Declarative.
+ This package contains the Qt Sensors QML module for Qt Declarative.
 
 Package: libqt5sensors5-dev
 Section: libdevel
