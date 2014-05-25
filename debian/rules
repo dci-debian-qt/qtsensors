@@ -39,7 +39,7 @@ override_dh_auto_install-arch:
 	rm -f debian/tmp/usr/lib/$(DEB_HOST_MULTIARCH)/*.la
 
 	# Remove private headers
-	rm -fv debian/tmp/usr/include/qt5/QtSensors/*/QtSensors/private/*
+	rm -fv debian/tmp/usr/include/*/qt5/QtSensors/*/QtSensors/private/*
 	# ... and other private stuff
 	rm -fv debian/tmp/usr/lib/*/qt5/mkspecs/modules/qt_lib_sensors_private.pri
 
