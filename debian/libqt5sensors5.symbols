@@ -19,9 +19,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN10QGyroscopeD1Ev@Base 5.1.1
  _ZN10QGyroscopeD2Ev@Base 5.1.1
  _ZN10QTapFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN10QTapFilterD0Ev@Base 5.1.1
- _ZN10QTapFilterD1Ev@Base 5.1.1
- _ZN10QTapFilterD2Ev@Base 5.1.1
  _ZN10QTapSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN10QTapSensor11qt_metacastEPKc@Base 5.1.1
  _ZN10QTapSensor16staticMetaObjectE@Base 5.1.1
@@ -45,9 +42,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN11QTapReadingD1Ev@Base 5.1.1
  _ZN11QTapReadingD2Ev@Base 5.1.1
  _ZN11QTiltFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN11QTiltFilterD0Ev@Base 5.1.1
- _ZN11QTiltFilterD1Ev@Base 5.1.1
- _ZN11QTiltFilterD2Ev@Base 5.1.1
  _ZN11QTiltSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN11QTiltSensor11qt_metacastEPKc@Base 5.1.1
  _ZN11QTiltSensor16staticMetaObjectE@Base 5.1.1
@@ -59,9 +53,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN11QTiltSensorD1Ev@Base 5.1.1
  _ZN11QTiltSensorD2Ev@Base 5.1.1
  _ZN12QLightFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN12QLightFilterD0Ev@Base 5.1.1
- _ZN12QLightFilterD1Ev@Base 5.1.1
- _ZN12QLightFilterD2Ev@Base 5.1.1
  _ZN12QLightSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN12QLightSensor11qt_metacastEPKc@Base 5.1.1
  _ZN12QLightSensor14setFieldOfViewEd@Base 5.2.0
@@ -123,13 +114,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN14QAccelerometerD1Ev@Base 5.1.1
  _ZN14QAccelerometerD2Ev@Base 5.1.1
  _ZN14QCompassFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN14QCompassFilterD0Ev@Base 5.1.1
- _ZN14QCompassFilterD1Ev@Base 5.1.1
- _ZN14QCompassFilterD2Ev@Base 5.1.1
  _ZN14QHolsterFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN14QHolsterFilterD0Ev@Base 5.1.1
- _ZN14QHolsterFilterD1Ev@Base 5.1.1
- _ZN14QHolsterFilterD2Ev@Base 5.1.1
  _ZN14QHolsterSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN14QHolsterSensor11qt_metacastEPKc@Base 5.1.1
  _ZN14QHolsterSensor16staticMetaObjectE@Base 5.1.1
@@ -202,9 +187,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN15QHolsterReadingD1Ev@Base 5.1.1
  _ZN15QHolsterReadingD2Ev@Base 5.1.1
  _ZN15QPressureFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN15QPressureFilterD0Ev@Base 5.1.1
- _ZN15QPressureFilterD1Ev@Base 5.1.1
- _ZN15QPressureFilterD2Ev@Base 5.1.1
  _ZN15QPressureSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN15QPressureSensor11qt_metacastEPKc@Base 5.1.1
  _ZN15QPressureSensor16staticMetaObjectE@Base 5.1.1
@@ -215,9 +197,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN15QPressureSensorD1Ev@Base 5.1.1
  _ZN15QPressureSensorD2Ev@Base 5.1.1
  _ZN15QRotationFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN15QRotationFilterD0Ev@Base 5.1.1
- _ZN15QRotationFilterD1Ev@Base 5.1.1
- _ZN15QRotationFilterD2Ev@Base 5.1.1
  _ZN15QRotationSensor11hasZChangedEb@Base 5.1.1
  _ZN15QRotationSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN15QRotationSensor11qt_metacastEPKc@Base 5.1.1
@@ -230,13 +209,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN15QRotationSensorD1Ev@Base 5.1.1
  _ZN15QRotationSensorD2Ev@Base 5.1.1
  _ZN16QAltimeterFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN16QAltimeterFilterD0Ev@Base 5.1.1
- _ZN16QAltimeterFilterD1Ev@Base 5.1.1
- _ZN16QAltimeterFilterD2Ev@Base 5.1.1
  _ZN16QGyroscopeFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN16QGyroscopeFilterD0Ev@Base 5.1.1
- _ZN16QGyroscopeFilterD1Ev@Base 5.1.1
- _ZN16QGyroscopeFilterD2Ev@Base 5.1.1
  _ZN16QPressureReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN16QPressureReading11qt_metacastEPKc@Base 5.1.1
  _ZN16QPressureReading11setPressureEd@Base 5.2.0
@@ -249,9 +222,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QPressureReadingD1Ev@Base 5.1.1
  _ZN16QPressureReadingD2Ev@Base 5.1.1
  _ZN16QProximityFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN16QProximityFilterD0Ev@Base 5.1.1
- _ZN16QProximityFilterD1Ev@Base 5.1.1
- _ZN16QProximityFilterD2Ev@Base 5.1.1
  _ZN16QProximitySensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN16QProximitySensor11qt_metacastEPKc@Base 5.1.1
  _ZN16QProximitySensor16staticMetaObjectE@Base 5.1.1
@@ -304,9 +274,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN17QProximityReadingD1Ev@Base 5.1.1
  _ZN17QProximityReadingD2Ev@Base 5.1.1
  _ZN18QIRProximityFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN18QIRProximityFilterD0Ev@Base 5.1.1
- _ZN18QIRProximityFilterD1Ev@Base 5.1.1
- _ZN18QIRProximityFilterD2Ev@Base 5.1.1
  _ZN18QIRProximitySensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN18QIRProximitySensor11qt_metacastEPKc@Base 5.1.1
  _ZN18QIRProximitySensor16staticMetaObjectE@Base 5.1.1
@@ -317,9 +284,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN18QIRProximitySensorD1Ev@Base 5.1.1
  _ZN18QIRProximitySensorD2Ev@Base 5.1.1
  _ZN18QOrientationFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN18QOrientationFilterD0Ev@Base 5.1.1
- _ZN18QOrientationFilterD1Ev@Base 5.1.1
- _ZN18QOrientationFilterD2Ev@Base 5.1.1
  _ZN18QOrientationSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN18QOrientationSensor11qt_metacastEPKc@Base 5.1.1
  _ZN18QOrientationSensor16staticMetaObjectE@Base 5.1.1
@@ -330,9 +294,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN18QOrientationSensorD1Ev@Base 5.1.1
  _ZN18QOrientationSensorD2Ev@Base 5.1.1
  _ZN19QAmbientLightFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN19QAmbientLightFilterD0Ev@Base 5.1.1
- _ZN19QAmbientLightFilterD1Ev@Base 5.1.1
- _ZN19QAmbientLightFilterD2Ev@Base 5.1.1
  _ZN19QAmbientLightSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN19QAmbientLightSensor11qt_metacastEPKc@Base 5.1.1
  _ZN19QAmbientLightSensor16staticMetaObjectE@Base 5.1.1
@@ -353,9 +314,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN19QIRProximityReadingD1Ev@Base 5.1.1
  _ZN19QIRProximityReadingD2Ev@Base 5.1.1
  _ZN19QMagnetometerFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN19QMagnetometerFilterD0Ev@Base 5.1.1
- _ZN19QMagnetometerFilterD1Ev@Base 5.1.1
- _ZN19QMagnetometerFilterD2Ev@Base 5.1.1
  _ZN19QOrientationReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN19QOrientationReading11qt_metacastEPKc@Base 5.1.1
  _ZN19QOrientationReading14copyValuesFromEP14QSensorReading@Base 5.1.1
@@ -367,9 +325,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN19QOrientationReadingD1Ev@Base 5.1.1
  _ZN19QOrientationReadingD2Ev@Base 5.1.1
  _ZN20QAccelerometerFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN20QAccelerometerFilterD0Ev@Base 5.1.1
- _ZN20QAccelerometerFilterD1Ev@Base 5.1.1
- _ZN20QAccelerometerFilterD2Ev@Base 5.1.1
  _ZN20QAmbientLightReading11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN20QAmbientLightReading11qt_metacastEPKc@Base 5.1.1
  _ZN20QAmbientLightReading13setLightLevelENS_10LightLevelE@Base 5.1.1
@@ -438,9 +393,6 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN24QSensorGestureRecognizerD1Ev@Base 5.1.1
  _ZN24QSensorGestureRecognizerD2Ev@Base 5.1.1
  _ZN25QAmbientTemperatureFilter6filterEP14QSensorReading@Base 5.1.1
- _ZN25QAmbientTemperatureFilterD0Ev@Base 5.1.1
- _ZN25QAmbientTemperatureFilterD1Ev@Base 5.1.1
- _ZN25QAmbientTemperatureFilterD2Ev@Base 5.1.1
  _ZN25QAmbientTemperatureSensor11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.1
  _ZN25QAmbientTemperatureSensor11qt_metacastEPKc@Base 5.1.1
  _ZN25QAmbientTemperatureSensor16staticMetaObjectE@Base 5.1.1
