@@ -74,7 +74,3 @@ override_dh_clean:
 	for pkg in $(pkgs_with_os); do \
 		rm -f debian/$$pkg.install ; \
 	done
-
-prune-nonfree:
-	# Remove minified jquery without source.
-	rm -fv doc/config/scripts/jquery.js

@@ -1,6 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: qtsensors
 Source: http://qt.gitorious.org/qt/qtsensors
+Files-Excluded: doc/config/scripts/jquery.js
 
 Files: *
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
