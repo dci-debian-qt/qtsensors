@@ -1,10 +1,9 @@
-qtsensors-opensource-src (5.3.0+dfsg-3) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.3.0+dfsg-3) unstable; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * Drop transitional QML module package.
   * Update symbols files with buildds' and current logs (Closes: #746901).
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Jun 2014 09:48:48 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 20 Jun 2014 20:14:12 -0300
 
 qtsensors-opensource-src (5.3.0+dfsg-2) unstable; urgency=medium
 
