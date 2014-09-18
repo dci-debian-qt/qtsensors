@@ -7,7 +7,7 @@ Files: *
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
            2013 BogDan Vatra <bogdan@kde.org>
            2012 Lorn Potter
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: debian/*
 Copyright: 2007-2012 Fathi Boudra <fabo@debian.org>
@@ -20,7 +20,7 @@ License: LGPL-2.1
 
 Files: tests/auto/cmake/test_modules/main.cpp
 Copyright: 2012 Klarälvdalens Datakonsult AB, a KDAB Group company
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: config.tests/bbsensor_compass/main.cpp
        config.tests/bbsensor_header/main.cpp
@@ -40,7 +40,7 @@ Files: config.tests/bbsensor_compass/main.cpp
        src/sensors/qambienttemperaturesensor.h
        src/sensors/qholstersensor.cpp
 Copyright: 2012 Research In Motion
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: examples/*
        src/sensors/doc/snippets/*
@@ -55,7 +55,7 @@ Files: examples/sensors/sensor_explorer/import/propertyinfo.h
        examples/sensors/sensor_explorer/import/explorer.h
        examples/sensors/sensor_explorer/import/sensoritem.cpp
 Copyright: 2012 Digia Plc and/or its subsidiary(-ies).
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1 or GPL-3
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: doc/config/scripts/superfish.js
 Copyright: 2008 Joel Birch
@@ -79,7 +79,7 @@ License: GFDL-NIV-1.3
  On Debian systems, the complete text of the GFDL-1.3 license can be found in
  `/usr/share/common-licenses/GFDL-1.3`,
 
-License: LGPL-2.1 with Digia Qt LGPL Exception 1.1
+License: LGPL-2.1 with Digia-1.1 exception
  GNU Lesser General Public License version 2.1:
  This file may be used under the terms of the GNU Lesser General Public
  License version 2.1 as published by the Free Software Foundation and
