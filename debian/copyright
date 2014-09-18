@@ -4,7 +4,7 @@ Source: http://qt.gitorious.org/qt/qtsensors
 Files-Excluded: doc/config/scripts/jquery.js
 
 Files: *
-Copyright: 2012 Digia Plc and/or its subsidiary(-ies)
+Copyright: 2012-2014 Digia Plc and/or its subsidiary(-ies)
            2013 BogDan Vatra <bogdan@kde.org>
            2012 Lorn Potter
 License: LGPL-2.1 with Digia-1.1 exception or GPL-3
@@ -40,6 +40,10 @@ Files: config.tests/bbsensor_compass/main.cpp
        src/sensors/qambienttemperaturesensor.h
        src/sensors/qholstersensor.cpp
 Copyright: 2012 Research In Motion
+License: LGPL-2.1 with Digia-1.1 exception or GPL-3
+
+Files: src/plugins/sensors/android/src/androidaccelerometer.cpp
+Copyright: 2014 BlackBerry Limited
 License: LGPL-2.1 with Digia-1.1 exception or GPL-3
 
 Files: examples/*
