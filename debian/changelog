@@ -7,6 +7,7 @@ qtsensors-opensource-src (5.3.2+dfsg-1) UNRELEASED; urgency=medium
   * Update Vcs-Browser field to point to cgit interface.
   * Update debian/copyright for new release.
   * Use correct exception syntax in debian/copyright.
+  * Build-depend on qtbase5-doc-html.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 15:03:46 +0400
 
