@@ -1,6 +1,5 @@
-qtsensors-opensource-src (5.3.2+dfsg-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.3.2+dfsg-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update build-dependencies for Qt 5.3.2.
   * Update my e-mail address.
@@ -9,7 +8,7 @@ qtsensors-opensource-src (5.3.2+dfsg-1) UNRELEASED; urgency=medium
   * Use correct exception syntax in debian/copyright.
   * Build-depend on qtbase5-doc-html.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 07 Sep 2014 15:03:46 +0400
+ -- Dmitry Shachnev <mitya57@debian.org>  Thu, 18 Sep 2014 12:38:10 +0400
 
 qtsensors-opensource-src (5.3.1+dfsg-1) unstable; urgency=medium
 
