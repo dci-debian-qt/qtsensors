@@ -1,6 +1,8 @@
-qtsensors-opensource-src (5.3.2+dfsg-3) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.4.0.
   * Remove unused paragraph in debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 22:08:41 +0400
