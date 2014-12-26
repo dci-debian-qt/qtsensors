@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.4.0.
   * Update and clean up debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update libqt5sensors5.symbols.
 
   [ Timo Jyrinki ]
   * Update libqt5sensors5-dev.install.
