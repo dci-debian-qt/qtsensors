@@ -4,6 +4,7 @@ qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.4.0.
   * Update and clean up debian/copyright.
+  * Bump Standards-Version to 3.9.6, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 22:08:41 +0400
 
