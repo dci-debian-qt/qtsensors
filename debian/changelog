@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
@@ -10,7 +10,7 @@ qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   [ Timo Jyrinki ]
   * Update libqt5sensors5-dev.install.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 22:08:41 +0400
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 26 Dec 2014 13:13:01 +0300
 
 qtsensors-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
 
