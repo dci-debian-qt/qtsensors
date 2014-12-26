@@ -6,6 +6,9 @@ qtsensors-opensource-src (5.4.0+dfsg-1) UNRELEASED; urgency=medium
   * Update and clean up debian/copyright.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
+  [ Timo Jyrinki ]
+  * Update libqt5sensors5-dev.install.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 08 Oct 2014 22:08:41 +0400
 
 qtsensors-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
