@@ -10,6 +10,7 @@ qtsensors-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.4.1.
   * Update debian/watch to use https://download.qt.io/.
   * Disable tests that work only on local installations.
+  * Re-enable running tests during build.
 
  -- Rohan Garg <rohan@garg.io>  Mon, 23 Feb 2015 15:39:52 +0100
 
