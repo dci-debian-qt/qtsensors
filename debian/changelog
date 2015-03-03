@@ -1,7 +1,10 @@
 qtsensors-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
+
+  [ Rohan Garg ]
   * Don't install the dummy sensors plugin, it was removed in 5.4.1
-    ( See https://bugreports.qt.io/browse/QTBUG-39475 )
+    (see https://bugreports.qt.io/browse/QTBUG-39475).
 
  -- Rohan Garg <rohan@garg.io>  Mon, 23 Feb 2015 15:39:52 +0100
 
