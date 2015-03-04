@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ qtsensors-opensource-src (5.4.1+dfsg-1) UNRELEASED; urgency=medium
   * Disable tests that work only on local installations.
   * Re-enable running tests during build.
 
- -- Rohan Garg <rohan@garg.io>  Mon, 23 Feb 2015 15:39:52 +0100
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Mar 2015 19:47:10 +0300
 
 qtsensors-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
