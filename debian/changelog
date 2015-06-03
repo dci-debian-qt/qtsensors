@@ -12,6 +12,7 @@ qtsensors-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
   * Expose HTML documentation (Closes: #751182).
   * The original source package no longer contains the minimized javascript
     code, so we are switching back to non-dfsg versioning.
+    - Update debian/copyright accordingly.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Mar 2015 13:38:15 +0300
 
