@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.4.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * Update Source URL, as gitorious is closing.
@@ -10,6 +10,8 @@ qtsensors-opensource-src (5.4.2+dfsg-1) UNRELEASED; urgency=medium
     repo in more than a year. They can re add themselves whenever they want
     (and we really hope to see you back really soon!).
   * Expose HTML documentation (Closes: #751182).
+  * The original source package no longer contains the minimized javascript
+    code, so we are switching back to non-dfsg versioning.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 22 Mar 2015 13:38:15 +0300
 
