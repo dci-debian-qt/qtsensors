@@ -6,6 +6,7 @@ qtsensors-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   * Do not run tests during arch-indep builds.
   * Build-depend on libqt5xcbqpa5, it is needed to run tests under Xvfb.
   * Refresh disable_local_tests.diff.
+  * Update debian/copyright.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Aug 2015 15:06:31 +0300
 
