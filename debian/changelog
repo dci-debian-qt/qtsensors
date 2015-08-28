@@ -3,6 +3,7 @@ qtsensors-opensource-src (5.5.0-1) UNRELEASED; urgency=medium
   [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.5.0.
+  * Do not run tests during arch-indep builds.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 28 Aug 2015 15:06:31 +0300
 

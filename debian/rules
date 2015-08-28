@@ -25,8 +25,11 @@ override_dh_auto_configure:
 override_dh_auto_build-indep:
 	dh_auto_build -Smakefile -- docs
 
-override_dh_auto_test:
+override_dh_auto_test-arch:
 	xvfb-run -a dh_auto_test -- QT_PLUGIN_PATH=$(CURDIR)/plugins LD_LIBRARY_PATH=$(CURDIR)/lib
+
+# Do not attempt to run tests during indep build
+override_dh_auto_test-indep:
 
 override_dh_auto_install-arch:
 	dh_auto_install
