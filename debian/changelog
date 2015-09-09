@@ -1,3 +1,11 @@
+qtsensors-opensource-src (5.5.0-1ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Merge with Debian's packaging, remaining changes:
+    - A transitional package for Ubuntu 14.04 LTS -> 16.04 LTS
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 26 Mar 2015 13:48:38 +0000
+
 qtsensors-opensource-src (5.5.0-1) experimental; urgency=medium
 
   * New upstream release.
@@ -14,6 +22,12 @@ qtsensors-opensource-src (5.4.2-2) unstable; urgency=medium
   * Upload to unstable.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 24 Jun 2015 17:41:45 -0300
+
+qtsensors-opensource-src (5.4.2-1ubuntu1) wily; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 11 Jun 2015 13:48:13 +0000
 
 qtsensors-opensource-src (5.4.2-1) experimental; urgency=medium
 
@@ -33,6 +47,14 @@ qtsensors-opensource-src (5.4.2-1) experimental; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 03 Jun 2015 16:50:09 -0300
 
+qtsensors-opensource-src (5.4.1+dfsg-1ubuntu1) vivid; urgency=medium
+
+  * New upstream release.
+  * Sync with Debian, remaining changes:
+    - Keep transitional package until after 16.04 LTS
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 11 Mar 2015 07:43:57 +0000
+
 qtsensors-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
 
   * New upstream release.
@@ -49,6 +71,21 @@ qtsensors-opensource-src (5.4.1+dfsg-1) experimental; urgency=medium
 
  -- Dmitry Shachnev <mitya57@debian.org>  Wed, 04 Mar 2015 19:47:10 +0300
 
+qtsensors-opensource-src (5.4.0+dfsg-1ubuntu1) vivid; urgency=medium
+
+  [ Timo Jyrinki ]
+  * New upstream release.
+  * Bump dependencies.
+  * Update libqt5sensors5-dev.install
+
+  [ Dmitry Shachnev ]
+  * Merge with Debian experimental, remaining changes:
+    - Add enable_make_check.patch to disable some failing tests.
+    - Keep transitional package until after 16.04 LTS.
+    - Keep tests enabled.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 13 Feb 2015 06:38:47 +0000
+
 qtsensors-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
@@ -62,6 +99,17 @@ qtsensors-opensource-src (5.4.0+dfsg-1) experimental; urgency=medium
   * Update libqt5sensors5-dev.install.
 
  -- Dmitry Shachnev <mitya57@debian.org>  Fri, 26 Dec 2014 13:13:01 +0300
+
+qtsensors-opensource-src (5.3.2+dfsg-2ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Bump dependencies
+  * Sync with Debian, remaining changes:
+    - Add enable_make_check.patch to disable some failing tests.
+    - Keep transitional package until after 16.04 LTS
+    - Keep tests enabled
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 28 Oct 2014 07:04:00 +0000
 
 qtsensors-opensource-src (5.3.2+dfsg-2) unstable; urgency=medium
 
@@ -104,6 +152,25 @@ qtsensors-opensource-src (5.3.0+dfsg-2) unstable; urgency=medium
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 06 Jun 2014 00:53:15 -0300
 
+qtsensors-opensource-src (5.3.0+dfsg-1ubuntu2) utopic; urgency=medium
+
+  * No-change rebuild to get dbgsyms for all binaries onto
+    ddebs.ubuntu.com
+
+ -- Steve Langasek <steve.langasek@ubuntu.com>  Thu, 24 Jul 2014 13:29:24 -0700
+
+qtsensors-opensource-src (5.3.0+dfsg-1ubuntu1) utopic; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * Merge with Debian unstable, remaining change:
+    - Add enable_make_check.patch to disable some failing tests.
+  * Move includes
+
+  [ Timo Jyrinki ]
+  * Sync with Debian
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 06 Jun 2014 11:28:58 +0000
+
 qtsensors-opensource-src (5.3.0+dfsg-1) experimental; urgency=medium
 
   [ Dmitry Shachnev ]
@@ -134,6 +201,24 @@ qtsensors-opensource-src (5.2.1+dfsg-3) unstable; urgency=medium
   * Upload to unstable.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 24 Mar 2014 23:22:30 -0300
+
+qtsensors-opensource-src (5.2.1+dfsg-2ubuntu2) trusty; urgency=medium
+
+  * Break/replace the correct package. Fixes upgrade bug (LP: #1308212).
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 16 Apr 2014 11:04:16 +0400
+
+qtsensors-opensource-src (5.2.1+dfsg-2ubuntu1) trusty; urgency=low
+
+  [ Timo Jyrinki ]
+  * New upstream version
+  * Reduce delta to Debian by dropping private headers too
+  * Re-enable tests
+  * Sync with Debian 5.2.1+dfsg-2, remaining changes:
+    - Keep transitional package for this Ubuntu cycle
+    - Tests enabled (now also in Debian -3 version)
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Fri, 28 Feb 2014 09:11:52 +0000
 
 qtsensors-opensource-src (5.2.1+dfsg-2) experimental; urgency=medium
 
@@ -205,6 +290,40 @@ qtsensors-opensource-src (5.1.1+dfsg-3) unstable; urgency=low
   * Add myself to uploaders
 
  -- Dmitry Shachnev <mitya57@ubuntu.com>  Tue, 12 Nov 2013 12:29:47 -0500
+
+qtsensors-opensource-src (5.1.1+dfsg-2ubuntu3) trusty; urgency=low
+
+  [ Iftikhar Ahmad (QA Engineer) ]
+  * Enable make check and skip the failing unit tests during the packing build.
+
+  [ Timo Jyrinki ]
+  * Add xvfb to build-depends
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Tue, 10 Dec 2013 09:16:42 +0200
+
+qtsensors-opensource-src (5.1.1+dfsg-2ubuntu2) trusty; urgency=low
+
+  * Substitute qreal in symbols file to fix FTBFS on armhf.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sun, 10 Nov 2013 13:36:40 +0400
+
+qtsensors-opensource-src (5.1.1+dfsg-2ubuntu1) trusty; urgency=low
+
+  [ Timo Jyrinki ]
+  * Merge with unreleased Debian git
+  * New upstream release
+  * Bump build-deps to 5.1.1
+  * Change architectures from a list to 'any'
+
+  [ Dmitry Shachnev ]
+  * Merge with Debian unstable, remaining changes:
+    - Build against Qt 5.0.2.
+    - Build qtsensors5-private-dev package.
+    - Add a transitional package from qtsensors5-dev to libqt5sensors5-dev.
+    - Kubuntu Vcs fields.
+  * Tests temporarily disabled because of QTBUG-34500.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Sat, 09 Nov 2013 13:36:33 +0400
 
 qtsensors-opensource-src (5.1.1+dfsg-2) unstable; urgency=low
 

@@ -1,7 +1,8 @@
 Source: qtsensors-opensource-src
 Section: libs
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <debian@pusling.com>,
            Pino Toscano <pino@debian.org>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
@@ -32,6 +33,16 @@ Description: Qt Sensors module
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt Sensors module.
+
+Package: qtdeclarative5-qtsensors-plugin
+Architecture: all
+Section: oldlibs
+Depends: qml-module-qtsensors, ${misc:Depends}
+Description: transitional dummy package for Qt 5 Sensors QML module
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This is a transitional dummy package which can be safely removed.
 
 Package: qml-module-qtsensors
 Architecture: any
