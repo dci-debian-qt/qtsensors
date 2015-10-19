@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.5.0-1ubuntu1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.5.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Merge with Debian's packaging, remaining changes:
