@@ -1,10 +1,17 @@
-qtsensors-opensource-src (5.5.1-0ubuntu1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.5.1-1ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
   * Merge with Debian's packaging, remaining changes:
     - A transitional package for Ubuntu 14.04 LTS -> 16.04 LTS
 
  -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Thu, 26 Mar 2015 13:48:38 +0000
+
+qtsensors-opensource-src (5.5.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Mon, 19 Oct 2015 09:40:36 +0000
 
 qtsensors-opensource-src (5.5.0-1) experimental; urgency=medium
 
