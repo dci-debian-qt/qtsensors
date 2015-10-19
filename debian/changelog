@@ -1,5 +1,9 @@
 qtsensors-opensource-src (5.5.1-1) UNRELEASED; urgency=medium
 
+  [ Timo Jyrinki ]
+  * New upstream release.
+    - Bump Qt build dependencies.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 19 Oct 2015 09:36:22 +0000
 
 qtsensors-opensource-src (5.5.0-1) experimental; urgency=medium
