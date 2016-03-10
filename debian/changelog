@@ -1,5 +1,9 @@
 qtsensors-opensource-src (5.5.1-3) UNRELEASED; urgency=medium
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Drop libqt5xcbqpa5, we merged it's contents in libqt5gui5, provided by
+    qtbase5-dev (Closes: #817794).
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 10 Mar 2016 16:53:14 -0300
 
 qtsensors-opensource-src (5.5.1-2) unstable; urgency=medium
