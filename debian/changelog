@@ -5,6 +5,7 @@ qtsensors-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.6.0.
   * Use https URIs for Vcs fields.
   * Update debian/libqt5sensors5.symbols for 5.6.0.
+  * Bump Standards-Version to 3.9.7, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2016 21:40:48 +0200
 
