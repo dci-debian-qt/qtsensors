@@ -1,3 +1,10 @@
+qtsensors-opensource-src (5.6.0-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 29 Mar 2016 21:40:48 +0200
+
 qtsensors-opensource-src (5.5.1-3) unstable; urgency=medium
 
   * Drop libqt5xcbqpa5, we merged it's contents in libqt5gui5, provided by
