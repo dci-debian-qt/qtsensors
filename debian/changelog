@@ -1,3 +1,10 @@
+qtsensors-opensource-src (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * This package is now in sync with Debian. Direct syncing from Debian
+    to Ubuntu 16.10 should be done instead of continuing with this branch.
+
+ -- Timo Jyrinki <timo-jyrinki@ubuntu.com>  Wed, 13 Apr 2016 08:11:32 +0000
+
 qtsensors-opensource-src (5.6.0-1) experimental; urgency=medium
 
   * New upstream release.
