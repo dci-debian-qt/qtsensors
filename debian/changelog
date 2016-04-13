@@ -1,3 +1,27 @@
+qtsensors-opensource-src (5.6.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.6.0.
+  * Use https URIs for Vcs fields.
+  * Update debian/libqt5sensors5.symbols for 5.6.0.
+  * Bump Standards-Version to 3.9.7, no changes needed.
+  * Drop copyright entries for removed BlackBerry support files.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Tue, 29 Mar 2016 22:30:53 +0200
+
+qtsensors-opensource-src (5.5.1-3) unstable; urgency=medium
+
+  * Drop libqt5xcbqpa5, we merged it's contents in libqt5gui5, provided by
+    qtbase5-dev (Closes: #817794).
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 10 Mar 2016 16:57:18 -0300
+
+qtsensors-opensource-src (5.5.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 21 Oct 2015 21:35:22 -0300
+
 qtsensors-opensource-src (5.5.1-1ubuntu2) xenial; urgency=medium
 
   * Remove libqt5xcbqpa5 dependency, it was merged back to libqt5gui5.
