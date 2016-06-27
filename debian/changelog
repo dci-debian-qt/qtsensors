@@ -1,3 +1,17 @@
+qtsensors-opensource-src (5.6.1-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 13 Jun 2016 11:08:44 -0300
+
+qtsensors-opensource-src (5.6.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt build dependencies.
+  * Bump Standards-Version to 3.9.8, no changes required.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sat, 11 Jun 2016 22:56:41 -0300
+
 qtsensors-opensource-src (5.6.0-1) experimental; urgency=medium
 
   * New upstream release.
