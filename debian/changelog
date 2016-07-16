@@ -1,3 +1,10 @@
+qtsensors-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2016 11:06:36 +0300
+
 qtsensors-opensource-src (5.6.1-2) unstable; urgency=medium
 
   * Upload to unstable.
