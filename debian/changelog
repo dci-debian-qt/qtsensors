@@ -4,6 +4,7 @@ qtsensors-opensource-src (5.7.0-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.7.0.
   * Update debian/copyright.
+  * Install the new iio-sensor-proxy plugin on Linux.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jul 2016 11:06:36 +0300
 
