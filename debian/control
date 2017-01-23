@@ -7,15 +7,15 @@ Uploaders: Sune Vuorela <debian@pusling.com>,
            Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
            Timo Jyrinki <timo@debian.org>,
            Dmitry Shachnev <mitya57@debian.org>
-Build-Depends: debhelper (>= 9),
+Build-Depends: debhelper (>= 9.20160114~),
                pkg-kde-tools,
-               qtbase5-private-dev (>= 5.6.1+dfsg~),
-               qtdeclarative5-private-dev (>= 5.6.1~),
+               qtbase5-private-dev (>= 5.7.1~20161021+dfsg~),
+               qtdeclarative5-private-dev (>= 5.7.1~20161021~),
                xauth,
                xvfb
-Build-Depends-Indep: libqt5sql5-sqlite (>= 5.6.1+dfsg~),
-                     qtbase5-doc-html (>= 5.6.1+dfsg~),
-                     qttools5-dev-tools (>= 5.6.1~)
+Build-Depends-Indep: libqt5sql5-sqlite (>= 5.7.1~20161021+dfsg~),
+                     qtbase5-doc-html (>= 5.7.1~20161021+dfsg~),
+                     qttools5-dev-tools (>= 5.7.1~20161021~)
 Standards-Version: 3.9.8
 Homepage: http://qt-project.org/
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/qt/qtsensors.git
@@ -37,8 +37,6 @@ Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: qtdeclarative5-qtsensors-plugin (<< 5.2.1+dfsg-4~)
-Replaces: qtdeclarative5-qtsensors-plugin (<< 5.2.1+dfsg-4~)
 Description: Qt 5 Sensors QML module
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -50,8 +48,6 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libqt5sensors5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
-Breaks: libqtsensors5-dev (<< 5.1.1+dfsg-2~)
-Replaces: libqtsensors5-dev (<< 5.1.1+dfsg-2~)
 Description: Qt 5 Sensors development files
  Qt is a cross-platform C++ application framework. Qt's primary feature
  is its rich set of widgets that provide standard GUI functionality.
@@ -70,20 +66,6 @@ Description: Qt 5 sensors examples
  is its rich set of widgets that provide standard GUI functionality.
  .
  This package contains Qt 5 Sensors examples.
-
-Package: qtsensors5-dbg
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Section: debug
-Depends: libqt5sensors5 (= ${binary:Version}), ${misc:Depends}
-Suggests: qtsensors5-examples (= ${binary:Version})
-Description: Qt sensors library debugging symbols
- Qt is a cross-platform C++ application framework. Qt's primary feature
- is its rich set of widgets that provide standard GUI functionality.
- .
- This package contains the debugging symbols for the Qt 5 Sensors
- libraries.
 
 Package: qtsensors5-doc
 Priority: extra

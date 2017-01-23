@@ -17,7 +17,7 @@ pkgs_with_common = $(patsubst debian/%.install-common,%,$(wildcard debian/*.inst
 pkgs_with_os = $(patsubst debian/%.install-$(DEB_HOST_ARCH_OS),%,$(wildcard debian/*.install-$(DEB_HOST_ARCH_OS)))
 
 %:
-	dh $@ --parallel --with pkgkde_symbolshelper --dbg-package=qtsensors5-dbg
+	dh $@ --parallel --with pkgkde_symbolshelper
 
 override_dh_auto_configure:
 	qmake QT_BUILD_PARTS+=tests
@@ -77,3 +77,6 @@ override_dh_clean:
 	for pkg in $(pkgs_with_os); do \
 		rm -f debian/$$pkg.install ; \
 	done
+
+override_dh_strip:
+	dh_strip --dbgsym-migration='qtsensors5-dbg (<< 5.7.0-1~)'

@@ -1,8 +1,27 @@
-qtsensors-opensource-src (5.7.0-0neon) xenial; urgency=medium
+qtsensors-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
-  * New release
+  * Release to unstable.
 
- -- Neon CI <neon@kde.org>  Mon, 27 Jun 2016 15:05:09 +0200
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Tue, 01 Nov 2016 09:30:20 -0300
+
+qtsensors-opensource-src (5.7.1~20161021-1) experimental; urgency=medium
+
+  * New upstream snapshot.
+    - Bump Qt build dependencies.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 26 Oct 2016 15:25:47 -0300
+
+qtsensors-opensource-src (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.7.0.
+  * Update debian/copyright.
+  * Install the new iio-sensor-proxy plugin on Linux.
+  * Drop obsolete Breaks/Replaces.
+  * Migrate to automatic dbgsym packages.
+  * Add Qt_5.7 version tag to libqt5sensors5.symbols.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 07 Aug 2016 21:01:23 +0300
 
 qtsensors-opensource-src (5.6.1-2) unstable; urgency=medium
 
