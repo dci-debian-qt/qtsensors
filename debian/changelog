@@ -1,3 +1,9 @@
+qtsensors-opensource-src (5.9.0~rc.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Mon, 29 May 2017 15:45:25 -0500
+
 qtsensors-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
   * Release to unstable.
