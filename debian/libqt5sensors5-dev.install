@@ -22,9 +22,15 @@ usr/include/*/qt5/QtSensors/QGyroscopeReading
 usr/include/*/qt5/QtSensors/QHolsterFilter
 usr/include/*/qt5/QtSensors/QHolsterReading
 usr/include/*/qt5/QtSensors/QHolsterSensor
+usr/include/*/qt5/QtSensors/QHumidityFilter
+usr/include/*/qt5/QtSensors/QHumidityReading
+usr/include/*/qt5/QtSensors/QHumiditySensor
 usr/include/*/qt5/QtSensors/QIRProximityFilter
 usr/include/*/qt5/QtSensors/QIRProximityReading
 usr/include/*/qt5/QtSensors/QIRProximitySensor
+usr/include/*/qt5/QtSensors/QLidFilter
+usr/include/*/qt5/QtSensors/QLidReading
+usr/include/*/qt5/QtSensors/QLidSensor
 usr/include/*/qt5/QtSensors/QLightFilter
 usr/include/*/qt5/QtSensors/QLightReading
 usr/include/*/qt5/QtSensors/QLightSensor
@@ -72,7 +78,9 @@ usr/include/*/qt5/QtSensors/qcompass.h
 usr/include/*/qt5/QtSensors/qdistancesensor.h
 usr/include/*/qt5/QtSensors/qgyroscope.h
 usr/include/*/qt5/QtSensors/qholstersensor.h
+usr/include/*/qt5/QtSensors/qhumiditysensor.h
 usr/include/*/qt5/QtSensors/qirproximitysensor.h
+usr/include/*/qt5/QtSensors/qlidsensor.h
 usr/include/*/qt5/QtSensors/qlightsensor.h
 usr/include/*/qt5/QtSensors/qmagnetometer.h
 usr/include/*/qt5/QtSensors/qorientationsensor.h
@@ -90,6 +98,7 @@ usr/include/*/qt5/QtSensors/qsensorplugin.h
 usr/include/*/qt5/QtSensors/qsensorsglobal.h
 usr/include/*/qt5/QtSensors/qtapsensor.h
 usr/include/*/qt5/QtSensors/qtiltsensor.h
+usr/include/*/qt5/QtSensors/qtsensors-config.h
 usr/include/*/qt5/QtSensors/qtsensorsversion.h
 usr/lib/*/cmake/*
 usr/lib/*/libQt5Sensors.prl
