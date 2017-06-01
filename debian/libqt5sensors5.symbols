@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.7.0 amd64
+# SymbolsHelper-Confirmed: 5.9.0~rc2 amd64 i386
 libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  Qt_5.0@Qt_5.0 5.6.0
  Qt_5.1@Qt_5.1 5.6.0
@@ -8,6 +8,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  Qt_5.5@Qt_5.5 5.6.0
  Qt_5.6@Qt_5.6 5.6.0
  Qt_5.7@Qt_5.7 5.7.0
+ Qt_5.8@Qt_5.8 5.9.0~rc2
+ Qt_5.9@Qt_5.9 5.9.0~rc2
  Qt_5@Qt_5 5.6.0
  Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.6.0
  _ZN10QAltimeter11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
@@ -28,6 +30,16 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN10QGyroscopeD0Ev@Qt_5 5.6.0
  _ZN10QGyroscopeD1Ev@Qt_5 5.6.0
  _ZN10QGyroscopeD2Ev@Qt_5 5.6.0
+ _ZN10QLidFilter6filterEP14QSensorReading@Qt_5 5.9.0~rc2
+ _ZN10QLidSensor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc2
+ _ZN10QLidSensor11qt_metacastEPKc@Qt_5 5.9.0~rc2
+ _ZN10QLidSensor16staticMetaObjectE@Qt_5 5.9.0~rc2
+ _ZN10QLidSensor4typeE@Qt_5 5.9.0~rc2
+ _ZN10QLidSensorC1EP7QObject@Qt_5 5.9.0~rc2
+ _ZN10QLidSensorC2EP7QObject@Qt_5 5.9.0~rc2
+ _ZN10QLidSensorD0Ev@Qt_5 5.9.0~rc2
+ _ZN10QLidSensorD1Ev@Qt_5 5.9.0~rc2
+ _ZN10QLidSensorD2Ev@Qt_5 5.9.0~rc2
  _ZN10QTapFilter6filterEP14QSensorReading@Qt_5 5.6.0
  _ZN10QTapSensor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN10QTapSensor11qt_metacastEPKc@Qt_5 5.6.0
@@ -40,6 +52,19 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN10QTapSensorD0Ev@Qt_5 5.6.0
  _ZN10QTapSensorD1Ev@Qt_5 5.6.0
  _ZN10QTapSensorD2Ev@Qt_5 5.6.0
+ _ZN11QLidReading11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc2
+ _ZN11QLidReading11qt_metacastEPKc@Qt_5 5.9.0~rc2
+ _ZN11QLidReading14backLidChangedEb@Qt_5 5.9.0~rc2
+ _ZN11QLidReading14copyValuesFromEP14QSensorReading@Qt_5 5.9.0~rc2
+ _ZN11QLidReading15frontLidChangedEb@Qt_5 5.9.0~rc2
+ _ZN11QLidReading16setBackLidClosedEb@Qt_5 5.9.0~rc2
+ _ZN11QLidReading16staticMetaObjectE@Qt_5 5.9.0~rc2
+ _ZN11QLidReading17setFrontLidClosedEb@Qt_5 5.9.0~rc2
+ _ZN11QLidReadingC1EP7QObject@Qt_5 5.9.0~rc2
+ _ZN11QLidReadingC2EP7QObject@Qt_5 5.9.0~rc2
+ _ZN11QLidReadingD0Ev@Qt_5 5.9.0~rc2
+ _ZN11QLidReadingD1Ev@Qt_5 5.9.0~rc2
+ _ZN11QLidReadingD2Ev@Qt_5 5.9.0~rc2
  _ZN11QTapReading11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN11QTapReading11qt_metacastEPKc@Qt_5 5.6.0
  _ZN11QTapReading12setDoubleTapEb@Qt_5 5.6.0
@@ -206,6 +231,16 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN15QHolsterReadingD0Ev@Qt_5 5.6.0
  _ZN15QHolsterReadingD1Ev@Qt_5 5.6.0
  _ZN15QHolsterReadingD2Ev@Qt_5 5.6.0
+ _ZN15QHumidityFilter6filterEP14QSensorReading@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensor11qt_metacastEPKc@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensor16staticMetaObjectE@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensor4typeE@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensorC1EP7QObject@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensorC2EP7QObject@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensorD0Ev@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensorD1Ev@Qt_5 5.9.0~rc2
+ _ZN15QHumiditySensorD2Ev@Qt_5 5.9.0~rc2
  _ZN15QPressureFilter6filterEP14QSensorReading@Qt_5 5.6.0
  _ZN15QPressureSensor11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN15QPressureSensor11qt_metacastEPKc@Qt_5 5.6.0
@@ -240,6 +275,17 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZN16QDistanceReadingD1Ev@Qt_5 5.6.0
  _ZN16QDistanceReadingD2Ev@Qt_5 5.6.0
  _ZN16QGyroscopeFilter6filterEP14QSensorReading@Qt_5 5.6.0
+ _ZN16QHumidityReading11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReading11qt_metacastEPKc@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReading14copyValuesFromEP14QSensorReading@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReading16staticMetaObjectE@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReading19setAbsoluteHumidityEd@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReading19setRelativeHumidityEd@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReadingC1EP7QObject@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReadingC2EP7QObject@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReadingD0Ev@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReadingD1Ev@Qt_5 5.9.0~rc2
+ _ZN16QHumidityReadingD2Ev@Qt_5 5.9.0~rc2
  _ZN16QPressureReading11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.6.0
  _ZN16QPressureReading11qt_metacastEPKc@Qt_5 5.6.0
  _ZN16QPressureReading11setPressureEd@Qt_5 5.6.0
@@ -505,9 +551,14 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZNK10QAltimeter7readingEv@Qt_5 5.6.0
  _ZNK10QGyroscope10metaObjectEv@Qt_5 5.6.0
  _ZNK10QGyroscope7readingEv@Qt_5 5.6.0
+ _ZNK10QLidSensor10metaObjectEv@Qt_5 5.9.0~rc2
+ _ZNK10QLidSensor7readingEv@Qt_5 5.9.0~rc2
  _ZNK10QTapSensor10metaObjectEv@Qt_5 5.6.0
  _ZNK10QTapSensor21returnDoubleTapEventsEv@Qt_5 5.6.0
  _ZNK10QTapSensor7readingEv@Qt_5 5.6.0
+ _ZNK11QLidReading10metaObjectEv@Qt_5 5.9.0~rc2
+ _ZNK11QLidReading13backLidClosedEv@Qt_5 5.9.0~rc2
+ _ZNK11QLidReading14frontLidClosedEv@Qt_5 5.9.0~rc2
  _ZNK11QTapReading10metaObjectEv@Qt_5 5.6.0
  _ZNK11QTapReading11isDoubleTapEv@Qt_5 5.6.0
  _ZNK11QTapReading12tapDirectionEv@Qt_5 5.6.0
@@ -548,6 +599,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZNK15QDistanceSensor7readingEv@Qt_5 5.6.0
  _ZNK15QHolsterReading10metaObjectEv@Qt_5 5.6.0
  _ZNK15QHolsterReading9holsteredEv@Qt_5 5.6.0
+ _ZNK15QHumiditySensor10metaObjectEv@Qt_5 5.9.0~rc2
+ _ZNK15QHumiditySensor7readingEv@Qt_5 5.9.0~rc2
  _ZNK15QPressureSensor10metaObjectEv@Qt_5 5.6.0
  _ZNK15QPressureSensor7readingEv@Qt_5 5.6.0
  _ZNK15QRotationSensor10metaObjectEv@Qt_5 5.6.0
@@ -555,6 +608,9 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZNK15QRotationSensor7readingEv@Qt_5 5.6.0
  _ZNK16QDistanceReading10metaObjectEv@Qt_5 5.6.0
  _ZNK16QDistanceReading8distanceEv@Qt_5 5.6.0
+ _ZNK16QHumidityReading10metaObjectEv@Qt_5 5.9.0~rc2
+ _ZNK16QHumidityReading16absoluteHumidityEv@Qt_5 5.9.0~rc2
+ _ZNK16QHumidityReading16relativeHumidityEv@Qt_5 5.9.0~rc2
  _ZNK16QPressureReading10metaObjectEv@Qt_5 5.6.0
  _ZNK16QPressureReading11temperatureEv@Qt_5 5.6.0
  _ZNK16QPressureReading8pressureEv@Qt_5 5.6.0
@@ -630,8 +686,11 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZNK8QCompass7readingEv@Qt_5 5.6.0
  _ZTI10QAltimeter@Qt_5 5.6.0
  _ZTI10QGyroscope@Qt_5 5.6.0
+ _ZTI10QLidFilter@Qt_5 5.9.0~rc2
+ _ZTI10QLidSensor@Qt_5 5.9.0~rc2
  _ZTI10QTapFilter@Qt_5 5.6.0
  _ZTI10QTapSensor@Qt_5 5.6.0
+ _ZTI11QLidReading@Qt_5 5.9.0~rc2
  _ZTI11QTapReading@Qt_5 5.6.0
  _ZTI11QTiltFilter@Qt_5 5.6.0
  _ZTI11QTiltSensor@Qt_5 5.6.0
@@ -652,6 +711,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTI15QDistanceFilter@Qt_5 5.6.0
  _ZTI15QDistanceSensor@Qt_5 5.6.0
  _ZTI15QHolsterReading@Qt_5 5.6.0
+ _ZTI15QHumidityFilter@Qt_5 5.9.0~rc2
+ _ZTI15QHumiditySensor@Qt_5 5.9.0~rc2
  _ZTI15QPressureFilter@Qt_5 5.6.0
  _ZTI15QPressureSensor@Qt_5 5.6.0
  _ZTI15QRotationFilter@Qt_5 5.6.0
@@ -659,6 +720,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTI16QAltimeterFilter@Qt_5 5.6.0
  _ZTI16QDistanceReading@Qt_5 5.6.0
  _ZTI16QGyroscopeFilter@Qt_5 5.6.0
+ _ZTI16QHumidityReading@Qt_5 5.9.0~rc2
  _ZTI16QPressureReading@Qt_5 5.6.0
  _ZTI16QProximityFilter@Qt_5 5.6.0
  _ZTI16QProximitySensor@Qt_5 5.6.0
@@ -692,8 +754,11 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTI8QCompass@Qt_5 5.6.0
  _ZTS10QAltimeter@Qt_5 5.6.0
  _ZTS10QGyroscope@Qt_5 5.6.0
+ _ZTS10QLidFilter@Qt_5 5.9.0~rc2
+ _ZTS10QLidSensor@Qt_5 5.9.0~rc2
  _ZTS10QTapFilter@Qt_5 5.6.0
  _ZTS10QTapSensor@Qt_5 5.6.0
+ _ZTS11QLidReading@Qt_5 5.9.0~rc2
  _ZTS11QTapReading@Qt_5 5.6.0
  _ZTS11QTiltFilter@Qt_5 5.6.0
  _ZTS11QTiltSensor@Qt_5 5.6.0
@@ -714,6 +779,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTS15QDistanceFilter@Qt_5 5.6.0
  _ZTS15QDistanceSensor@Qt_5 5.6.0
  _ZTS15QHolsterReading@Qt_5 5.6.0
+ _ZTS15QHumidityFilter@Qt_5 5.9.0~rc2
+ _ZTS15QHumiditySensor@Qt_5 5.9.0~rc2
  _ZTS15QPressureFilter@Qt_5 5.6.0
  _ZTS15QPressureSensor@Qt_5 5.6.0
  _ZTS15QRotationFilter@Qt_5 5.6.0
@@ -721,6 +788,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTS16QAltimeterFilter@Qt_5 5.6.0
  _ZTS16QDistanceReading@Qt_5 5.6.0
  _ZTS16QGyroscopeFilter@Qt_5 5.6.0
+ _ZTS16QHumidityReading@Qt_5 5.9.0~rc2
  _ZTS16QPressureReading@Qt_5 5.6.0
  _ZTS16QProximityFilter@Qt_5 5.6.0
  _ZTS16QProximitySensor@Qt_5 5.6.0
@@ -754,8 +822,11 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTS8QCompass@Qt_5 5.6.0
  _ZTV10QAltimeter@Qt_5 5.6.0
  _ZTV10QGyroscope@Qt_5 5.6.0
+ _ZTV10QLidFilter@Qt_5 5.9.0~rc2
+ _ZTV10QLidSensor@Qt_5 5.9.0~rc2
  _ZTV10QTapFilter@Qt_5 5.6.0
  _ZTV10QTapSensor@Qt_5 5.6.0
+ _ZTV11QLidReading@Qt_5 5.9.0~rc2
  _ZTV11QTapReading@Qt_5 5.6.0
  _ZTV11QTiltFilter@Qt_5 5.6.0
  _ZTV11QTiltSensor@Qt_5 5.6.0
@@ -776,6 +847,8 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTV15QDistanceFilter@Qt_5 5.6.0
  _ZTV15QDistanceSensor@Qt_5 5.6.0
  _ZTV15QHolsterReading@Qt_5 5.6.0
+ _ZTV15QHumidityFilter@Qt_5 5.9.0~rc2
+ _ZTV15QHumiditySensor@Qt_5 5.9.0~rc2
  _ZTV15QPressureFilter@Qt_5 5.6.0
  _ZTV15QPressureSensor@Qt_5 5.6.0
  _ZTV15QRotationFilter@Qt_5 5.6.0
@@ -783,6 +856,7 @@ libQt5Sensors.so.5 libqt5sensors5 #MINVER#
  _ZTV16QAltimeterFilter@Qt_5 5.6.0
  _ZTV16QDistanceReading@Qt_5 5.6.0
  _ZTV16QGyroscopeFilter@Qt_5 5.6.0
+ _ZTV16QHumidityReading@Qt_5 5.9.0~rc2
  _ZTV16QPressureReading@Qt_5 5.6.0
  _ZTV16QProximityFilter@Qt_5 5.6.0
  _ZTV16QProximitySensor@Qt_5 5.6.0

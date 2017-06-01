@@ -1,8 +1,11 @@
-qtsensors-opensource-src (5.7.1-0neon) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.9.0~rc.2-1) UNRELEASED; urgency=medium
 
-  * neon build
+  [ Simon Quigley ]
+  * New upstream release.
+  * Update debian/copyright.
+  * Install the new QHumiditySensor library.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Jan 2017 14:36:54 +0000
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 29 May 2017 15:45:25 -0500
 
 qtsensors-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
