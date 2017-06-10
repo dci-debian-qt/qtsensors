@@ -1,4 +1,4 @@
-qtsensors-opensource-src (5.9.0-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.9.0-1) experimental; urgency=medium
 
   * New upstream release.
   * Update debian/copyright.
