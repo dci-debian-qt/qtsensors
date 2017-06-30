@@ -1,14 +1,11 @@
-qtsensors-opensource-src (5.9.0-0neon) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.9.0-1) experimental; urgency=medium
 
-  [ Simon Quigley ]
   * New upstream release.
   * Update debian/copyright.
   * Install the new QHumiditySensor library.
+  * Add my name to Uploaders.
 
-  [ Jonathan Riddell ]
-  * New release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 01 Jun 2017 15:58:11 +0100
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Fri, 09 Jun 2017 23:38:52 -0500
 
 qtsensors-opensource-src (5.7.1~20161021-2) unstable; urgency=medium
 
