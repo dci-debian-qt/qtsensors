@@ -1,12 +1,11 @@
-qtsensors-opensource-src (5.9.1-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.9.1-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Update debian/copyright for new release.
   * Bump Qt build-dependencies to 5.9.1.
   * Bump Standards-Version to 4.0.0, no changes needed.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 07 Jul 2017 14:07:16 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 14:42:18 +0300
 
 qtsensors-opensource-src (5.9.0-1) experimental; urgency=medium
 
