@@ -1,12 +1,11 @@
-qtsensors-opensource-src (5.9.2-1) UNRELEASED; urgency=medium
+qtsensors-opensource-src (5.9.2-1) experimental; urgency=medium
 
-  [ Dmitry Shachnev ]
   * New upstream release.
   * Bump Qt build-dependencies to 5.9.2.
   * Update debhelper compatibility level to 10.
   * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Oct 2017 19:03:58 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 19:35:04 +0300
 
 qtsensors-opensource-src (5.9.1-2) unstable; urgency=medium
 
