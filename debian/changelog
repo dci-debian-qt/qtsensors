@@ -6,6 +6,36 @@ qtsensors-opensource-src (5.9.3-0neon) UNRELEASED; urgency=medium
 
  -- Jonathan Riddell <jr@jriddell.org>  Wed, 22 Nov 2017 17:23:10 +0000
 
+qtsensors-opensource-src (5.9.2-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 27 Oct 2017 00:20:55 +0300
+
+qtsensors-opensource-src (5.9.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.9.2.
+  * Update debhelper compatibility level to 10.
+  * Bump Standards-Version to 4.1.1, stop using deprecated Priority: extra.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 15 Oct 2017 19:35:04 +0300
+
+qtsensors-opensource-src (5.9.1-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 16 Aug 2017 14:10:02 -0300
+
+qtsensors-opensource-src (5.9.1-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update debian/copyright for new release.
+  * Bump Qt build-dependencies to 5.9.1.
+  * Bump Standards-Version to 4.0.0, no changes needed.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 07 Jul 2017 14:42:18 +0300
+
 qtsensors-opensource-src (5.9.0-1) experimental; urgency=medium
 
   * New upstream release.
